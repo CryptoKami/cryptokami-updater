@@ -1,0 +1,11 @@
+resolver: lts-8.0
+packages:
+- '.'
+extra-deps:
+- foundation-0.0.3
+- foundation-edge-0.0.1
+nix:
+  packages: [zlib openssh git bsdiff bzip2 binutils]
+#  shell-file: shell.nix
+flags: {}
+extra-package-dbs: []
